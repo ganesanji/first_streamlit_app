@@ -15,5 +15,5 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 streamlit.dataframe(my_fruit_list)
 
 #df = pandas.DataFrame(my_fruit_list)
-print("From pandas data frame")
+streamlit.text("From pandas data frame")
 #print(df)
